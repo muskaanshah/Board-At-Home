@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://ui-rhythm.netlify.app/components.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<title>Board At Home</title>
+	</head>
+	<body>
+		<ul class="nav bg-primary px-1">
+			<div class="section1">
+				<div class="hamburger-menu">
+					<button class="btn-hamburger-menu">
+						<span class="material-icons-outlined"> menu </span>
+					</button>
+				</div>
+				<li class="nav-logo">
+					<a href="#">
+						<img class="nav-logo-img" src="/images/dice-logo.png" />
+					</a>
+				</li>
+				<div class="drawer" data-visible="false">
+					<li class="nav-item"><a href="/index.html">Home</a></li>
+					<li class="nav-item"><a href="/pages/products.html">Games</a></li>
+					<li class="nav-item"><a href="#">About us</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
+				</div>
+			</div>
+			<li class="search">
+				<input
+					type="text"
+					class="input-text input-text-nav input-search"
+					placeholder="Search"
+				/>
+			</li>
+			<li class="btn-login">
+				<a href="/pages/login.html">
+					<span class="material-icons user-login-icon"> account_circle </span>
+				</a>
+				<a
+					class="btn user-login-btn borderradius-2 bg-secondary color-primary py-0-5 px-1"
+					href="/pages/login.html"
+					>Login</a
+				>
+			</li>
+			<li>
+				<a href="/pages/wishlist.html">
+					<span class="material-icons-outlined wishlist-icon">
+						favorite_border
+					</span></a
+				>
+			</li>
+			<li>
+				<span class="badge-container">
+					<a href="/pages/cart.html">
+						<span class="material-icons-outlined cart-icon">
+							shopping_cart
+						</span>
+					</a>
+					<div class="badge badge-number bg-danger color-white">17</div>
+				</span>
+			</li>
+		</ul>
+		<div class="container-body">
+			<div class="p-1">
+				<h2>Showing all products</h2>
+				<div class="products-listing">
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-wrapper">
+						<div
+							class="card card-product"
+							onclick="window.location = productpath"
+						>
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="card-product-favourite">
+									<span class="material-icons"> favorite </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Multiplayer witty game</p>
+								<div class="card-product-price pb-0">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+							</div>
+							<div class="card-button">
+								<button class="btn btn-addtocart bg-primary ls-1 px-0-5 py-1">
+									<span class="btn-addtocart-text">ADD TO CART</span>
+									<span class="material-icons-outlined btn-addtocart-icon">
+										add_shopping_cart
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="filter-icon">
+				<span class="material-icons"> filter_list </span>
+			</button>
+			<div class="products-filters pb-2" data-visible="false">
+				<div class="px-1">
+					<div class="products-filters-heading">
+						<h3>Filters</h3>
+						<button class="btn-clear fs-1">Clear</button>
+					</div>
+					<h3>Price</h3>
+					<div class="slider-range-price">
+						<span>400</span>
+						<span>5000+</span>
+					</div>
+					<div class="slider-container">
+						<input
+							type="range"
+							class="slider"
+							min="400"
+							max="5000"
+							value="10000"
+							id="priceRange"
+						/>
+					</div>
+					<h3>Category</h3>
+					<div class="checkbox-group category-filter">
+						<label for="checkbox-strategicgames">
+							<input
+								id="checkbox-strategicgames"
+								type="checkbox"
+								name="checkbox"
+								value="strategic games"
+								checked
+							/>
+							Strategic games
+						</label>
+						<label for="checkbox-fungames">
+							<input
+								id="checkbox-fungames"
+								type="checkbox"
+								name="checkbox"
+								value="fun games"
+							/>
+							Fun games
+						</label>
+						<label for="checkbox-multiplayergames">
+							<input
+								id="checkbox-multiplayergames"
+								type="checkbox"
+								name="checkbox"
+								value="multiplayer games"
+							/>
+							Multiplayer games
+						</label>
+						<label for="checkbox-twoplayergames">
+							<input
+								id="checkbox-twoplayergames"
+								type="checkbox"
+								name="checkbox"
+								value="two player games"
+							/>
+							Two player games
+						</label>
+						<label for="checkbox-cardgames">
+							<input
+								id="checkbox-cardgames"
+								type="checkbox"
+								name="checkbox"
+								value="card games"
+							/>
+							Card games
+						</label>
+						<label for="checkbox-childrengames">
+							<input
+								id="checkbox-childrengames"
+								type="checkbox"
+								name="checkbox"
+								value="children games"
+							/>
+							Games for children
+						</label>
+					</div>
+					<h3>Rating</h3>
+					<div class="radio-group rating-filter">
+						<label for="4stars">
+							<input
+								id="4stars"
+								type="radio"
+								name="radio-rating"
+								value="4 stars"
+							/>
+							4 stars and above
+						</label>
+						<label for="3stars">
+							<input
+								id="3stars"
+								type="radio"
+								name="radio-rating"
+								value="3 stars"
+							/>
+							3 stars and above
+						</label>
+						<label for="2stars">
+							<input
+								id="2stars"
+								type="radio"
+								name="radio-rating"
+								value="2 stars"
+							/>
+							2 stars and above
+						</label>
+						<label for="1star">
+							<input
+								id="1star"
+								type="radio"
+								name="radio-rating"
+								value="1 star"
+							/>
+							1 star and above
+						</label>
+					</div>
+					<h3>Sort By</h3>
+					<div class="radio-group sortby-filter">
+						<label for="htol">
+							<input
+								id="htol"
+								type="radio"
+								name="radio-price"
+								value="highest to lowest"
+							/>
+							Price - High to Low
+						</label>
+						<label for="ltoh">
+							<input
+								id="ltoh"
+								type="radio"
+								name="radio-price"
+								value="lowest to highest"
+							/>
+							Price - Low to High
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/app.js"></script>
+		<script>
+			const productpath = "/pages/singleproduct.html";
+		</script>
+	</body>
+</html>
