@@ -1,0 +1,42 @@
+.card-horizontal,
+.price-card {
+	width: min(100%, 35rem);
+	box-sizing: border-box;
+}
+
+.price-card {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.card-cart-product {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.divider-black {
+	width: 100%;
+}
+
+.price-attribute {
+	display: flex;
+	align-items: baseline;
+}
+
+.price-attribute > p {
+	margin-bottom: 0.4rem;
+	margin-top: 0.4rem;
+}
+
+.price-attribute > :first-child {
+	flex-grow: 1;
+}
+
+.fs-0-6 {
+	font-size: 0.6rem;
+}
+
+.btn-place-order {
+	display: block;
+	width: 100%;
+}

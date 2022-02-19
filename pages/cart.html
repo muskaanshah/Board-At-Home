@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://ui-rhythm.netlify.app/components.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<title>Board At Home</title>
+	</head>
+	<body>
+		<ul class="nav bg-primary px-1">
+			<div class="section1">
+				<div class="hamburger-menu">
+					<button class="btn-hamburger-menu">
+						<span class="material-icons-outlined"> menu </span>
+					</button>
+				</div>
+				<li class="nav-logo">
+					<a href="#">
+						<img class="nav-logo-img" src="/images/dice-logo.png" />
+					</a>
+				</li>
+				<div class="drawer" data-visible="false">
+					<li class="nav-item"><a href="/index.html">Home</a></li>
+					<li class="nav-item"><a href="/pages/products.html">Games</a></li>
+					<li class="nav-item"><a href="#">About us</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
+				</div>
+			</div>
+			<li class="search">
+				<input
+					type="text"
+					class="input-text input-text-nav input-search"
+					placeholder="Search"
+				/>
+			</li>
+			<li class="btn-login">
+				<a href="/pages/login.html">
+					<span class="material-icons user-login-icon"> account_circle </span>
+				</a>
+				<a
+					class="btn user-login-btn borderradius-2 bg-secondary color-primary py-0-5 px-1"
+					href="/pages/login.html"
+					>Login</a
+				>
+			</li>
+			<li>
+				<a href="/pages/wishlist.html">
+					<span class="material-icons-outlined wishlist-icon">
+						favorite_border
+					</span></a
+				>
+			</li>
+			<li>
+				<span class="badge-container">
+					<a href="/pages/cart.html">
+						<span class="material-icons-outlined cart-icon">
+							shopping_cart
+						</span>
+					</a>
+					<div class="badge badge-number bg-danger color-white">17</div>
+				</span>
+			</li>
+		</ul>
+		<div class="container-body py-1 px-2">
+			<h2>Your cart</h2>
+			<div class="checkout">
+				<div class="cart-checkout">
+					<div class="card-cart-product">
+						<div class="card-horizontal">
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="btn-close">
+									<span class="material-icons"> close </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Based on team strategy</p>
+								<div class="card-product-price">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+								<div class="card-product-quantity">
+									<span class="product-qty">Qty:</span>
+									<select class="qty">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-horizontal">
+							<div class="card-image-wrapper">
+								<img
+									class="img-responsive"
+									src="https://m.media-amazon.com/images/I/71qDTSDIN0L._SY355_.jpg"
+								/>
+							</div>
+							<div class="card-product-details">
+								<button class="btn-close">
+									<span class="material-icons"> close </span>
+								</button>
+								<h3 class="card-title">Codenames</h3>
+								<p class="card-product-description">Based on team strategy</p>
+								<div class="card-product-price">
+									<span class="card-product-newprice">Rs.799</span>
+									<span class="card-product-actualprice">Rs.1199</span>
+									<span class="card-product-discount">30% off</span>
+								</div>
+								<div class="card-product-quantity">
+									<span class="product-qty">Qty:</span>
+									<select class="qty">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="price-card p-1">
+					<p class="my-0-5 fw-600">PRICE DETAILS (2 Items)</p>
+					<div class="divider-black"></div>
+					<div class="price-attribute">
+						<p>Total MRP</p>
+						<p>Rs.2398</p>
+					</div>
+					<div class="price-attribute">
+						<p>Discount</p>
+						<p class="color-success ls-1">-Rs.800</p>
+					</div>
+					<div class="price-attribute">
+						<p>Delivery Charge</p>
+						<p>Rs.199</p>
+					</div>
+					<div class="divider-black"></div>
+					<div class="price-attribute">
+						<p class="my-0-5 fw-600">Total Price</p>
+						<p>Rs.1798</p>
+					</div>
+					<button class="btn bg-primary btn-place-order mt-1">
+						PLACE ORDER
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="/app.js"></script>
+	</body>
+</html>
