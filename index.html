@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://ui-rhythm.netlify.app/components.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<title>Board At Home</title>
+	</head>
+	<body>
+		<ul class="nav bg-primary px-1">
+			<div class="section1">
+				<div class="hamburger-menu">
+					<button class="btn-hamburger-menu">
+						<span class="material-icons-outlined"> menu </span>
+					</button>
+				</div>
+				<li class="nav-logo">
+					<a href="#">
+						<img class="nav-logo-img" src="/images/dice-logo.png" />
+					</a>
+				</li>
+				<div class="drawer" data-visible="false">
+					<li class="nav-item"><a href="/index.html">Home</a></li>
+					<li class="nav-item"><a href="/pages/products.html">Games</a></li>
+					<li class="nav-item"><a href="#">About us</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
+				</div>
+			</div>
+			<li class="search">
+				<input
+					type="text"
+					class="input-text input-text-nav input-search"
+					placeholder="Search"
+				/>
+			</li>
+			<li class="btn-login">
+				<a href="/pages/login.html">
+					<span class="material-icons user-login-icon"> account_circle </span>
+				</a>
+				<a
+					class="btn user-login-btn borderradius-2 bg-secondary color-primary py-0-5 px-1"
+					href="/pages/login.html"
+					>Login</a
+				>
+			</li>
+			<li>
+				<a href="/pages/wishlist.html">
+					<span class="material-icons-outlined wishlist-icon">
+						favorite_border
+					</span></a
+				>
+			</li>
+			<li>
+				<span class="badge-container">
+					<a href="/pages/cart.html">
+						<span class="material-icons-outlined cart-icon">
+							shopping_cart
+						</span>
+					</a>
+					<div class="badge badge-number bg-danger color-white">17</div>
+				</span>
+			</li>
+		</ul>
+		<div class="landingpage">
+			<picture>
+				<source
+					media="(min-width: 1000px)"
+					srcset="/images/landingpagedesktop.jpg"
+				/>
+				<img
+					src="/images/landingpage.jpg"
+					class="img-responsive"
+					alt="landingpage"
+				/>
+			</picture>
+		</div>
+		<h1>Categories</h1>
+		<div class="categories mx-auto">
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/strategicgame.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Strategic games</h3>
+				</div>
+			</div>
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/fungame.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Fun games</h3>
+				</div>
+			</div>
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/groupgame.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Group games</h3>
+				</div>
+			</div>
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/twoplayergame.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Two player games</h3>
+				</div>
+			</div>
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/cardgame.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Card games</h3>
+				</div>
+			</div>
+			<div class="game-card" onclick="window.location='/pages/products.html'">
+				<img src="/images/childrengames.jpg" class="img-responsive" />
+				<div class="game-card-overlay">
+					<h3 class="color-white">Games for children</h3>
+				</div>
+			</div>
+		</div>
+		<div class="homepagequote mx-auto">
+			<p class="homequote mb-0 fs-1-25 fw-400">
+				<i>
+					"By playing games you can artificially speed up your learning curve to
+					develop the right kind of thought process"
+				</i>
+			</p>
+			<p class="homequoteauthor fs-1-25 fw-500 mt-0">-Nate Silver</p>
+		</div>
+
+		<script src="/app.js"></script>
+	</body>
+</html>
