@@ -84,7 +84,7 @@
 							</div>
 							<div class="card-product-details">
 								<button class="btn-close">
-									<span class="material-icons"> close </span>
+									<span class="material-icons close-button"> close </span>
 								</button>
 								<h3 class="card-title">Codenames</h3>
 								<p class="card-product-description">Based on team strategy</p>
@@ -115,7 +115,7 @@
 							</div>
 							<div class="card-product-details">
 								<button class="btn-close">
-									<span class="material-icons"> close </span>
+									<span class="material-icons close-button"> close </span>
 								</button>
 								<h3 class="card-title">Codenames</h3>
 								<p class="card-product-description">Based on team strategy</p>
@@ -134,6 +134,24 @@
 										<option value="5">5</option>
 									</select>
 								</div>
+							</div>
+						</div>
+						<div id="modal" class="modal boxshadow-medium">
+							<button class="btn-close">
+								<span class="material-icons modal-close"> close </span>
+							</button>
+							<p class="modal-body">
+								Are you sure you want to remove this item?
+							</p>
+							<div class="modal-actionbuttons">
+								<button class="btn bg-danger color-white">
+									Delete
+									<span class="material-icons"> delete </span>
+								</button>
+								<button class="btn bg-success color-white">
+									Move to wishlist
+									<span class="material-icons"> shopping_bag </span>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -165,5 +183,6 @@
 			</div>
 		</div>
 		<script src="/app.js"></script>
+		<script src="/scripts/cart.js"></script>
 	</body>
 </html>

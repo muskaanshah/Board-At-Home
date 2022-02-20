@@ -40,3 +40,15 @@
 	display: block;
 	width: 100%;
 }
+
+.modal {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%);
+	display: none;
+}
+
+.modal-open {
+	display: block;
+}
