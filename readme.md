@@ -17,7 +17,4 @@ With gadgets in hand, the trend of spending quality time with family, cousins an
 
 ...And many more coming.
 
-https://user-images.githubusercontent.com/67731665/154817073-471a3cb0-c7f7-4fec-acc6-40ef07613605.mp4
-
-https://user-images.githubusercontent.com/67731665/154817068-18cac237-25f2-475f-a37c-a479c99a8efb.mp4
 
