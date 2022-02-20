@@ -10,7 +10,7 @@
 	--accent: #85583a;
 }
 html {
-	font-size: 62.5%; /*font size is 10px */
+	font-size: 75%; /* font size is 12px */
 }
 
 body {
@@ -187,9 +187,6 @@ body {
 }
 
 @media only screen and (min-width: 650px) {
-	html {
-		font-size: 75%; /* font size is 12px */
-	}
 	.user-login-btn {
 		display: inline-block;
 	}
