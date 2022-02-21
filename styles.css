@@ -8,6 +8,7 @@
 	--primary: #432818;
 	--secondary: #f7efcf;
 	--accent: #85583a;
+	--white: #f9fafb;
 }
 html {
 	font-size: 75%; /* font size is 12px */
@@ -91,7 +92,7 @@ body {
 }
 
 .user-login-icon {
-	font-size: 4rem;
+	font-size: 2.5rem;
 }
 
 .user-login-btn {
@@ -178,9 +179,6 @@ body {
 		border-bottom: 1px solid var(--secondary);
 		color: var(--secondary);
 	}
-	.user-login-icon {
-		font-size: 2.5rem;
-	}
 	.nav {
 		gap: 1rem;
 	}
@@ -210,9 +208,10 @@ body {
 		padding-top: 2rem;
 	}
 	.wishlist-listing,
-	.wishlist-heading {
-		padding-left: 3rem;
-		padding-right: 3rem;
+	.page-heading,
+	.checkout {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	.checkout {
@@ -236,11 +235,16 @@ body {
 		position: static;
 		width: auto;
 	}
+	.game-card-overlay {
+		opacity: 0;
+	}
 	.btn-addtocart-icon {
 		display: inline;
 	}
 	.products-listing {
 		margin-right: 15rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	.filter-icon {
 		display: none;

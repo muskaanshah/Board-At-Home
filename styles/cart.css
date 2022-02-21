@@ -52,3 +52,12 @@
 .modal-open {
 	display: block;
 }
+
+.cart-objectfit-cover {
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-horizontal {
+	background-color: white;
+}
