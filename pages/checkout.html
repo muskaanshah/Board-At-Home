@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://ui-rhythm.netlify.app/components.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/images/dice-logo.png"
+		/>
+		<title>Board At Home</title>
+	</head>
+	<body>
+		<ul class="nav bg-primary px-1">
+			<div class="section1">
+				<div class="hamburger-menu">
+					<button class="btn-hamburger-menu">
+						<span class="material-icons-outlined"> menu </span>
+					</button>
+				</div>
+				<li class="nav-logo">
+					<a href="#">
+						<img class="nav-logo-img" src="/images/dice-logo.png" />
+					</a>
+				</li>
+				<div class="drawer" data-visible="false">
+					<li class="nav-item"><a href="/index.html">Home</a></li>
+					<li class="nav-item"><a href="/pages/products.html">Games</a></li>
+					<li class="nav-item"><a href="#">About us</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
+				</div>
+			</div>
+			<li class="search">
+				<input
+					type="text"
+					class="input-text input-text-nav input-search"
+					placeholder="Search"
+				/>
+			</li>
+			<li class="btn-login">
+				<a href="/pages/login.html">
+					<span class="material-icons user-login-icon"> account_circle </span>
+				</a>
+				<a
+					class="btn user-login-btn borderradius-2 bg-secondary color-primary py-0-5 px-1"
+					href="/pages/login.html"
+					>Login</a
+				>
+			</li>
+			<li>
+				<a href="/pages/wishlist.html">
+					<span class="material-icons-outlined wishlist-icon">
+						favorite_border
+					</span></a
+				>
+			</li>
+			<li>
+				<span class="badge-container">
+					<a href="/pages/cart.html">
+						<span class="material-icons-outlined cart-icon">
+							shopping_cart
+						</span>
+					</a>
+					<div class="badge badge-number bg-danger color-white">17</div>
+				</span>
+			</li>
+		</ul>
+		<div class="container-body py-1 px-2">
+			<div class="ordersummary-flex">
+				<div>
+					<h2 class="page-heading">Select your address</h2>
+					<div class="flex-column address-radiobox">
+						<label for="radio-address" class="address-selector p-0-5 centered">
+							<input
+								id="radio-address"
+								type="radio"
+								name="radio"
+								value="add1"
+								checked
+							/>
+							<p class="m-0">
+								<b>Muskaan - Home:</b> 41, Gandhi Nagar Road, Flat-3, Sindur
+								Sunshine, Kilpauk, Chennai - 600 010
+							</p>
+						</label>
+						<label for="radio-address" class="address-selector p-0-5 centered">
+							<input
+								id="radio-address"
+								type="radio"
+								name="radio"
+								value="add2"
+							/>
+							<p class="m-0">
+								<b>Muskaan - Office:</b> Goldman Sachs office, 29, Outer Ring
+								Road, Kadubeesanhalli, Bengaluru - 560 037
+							</p>
+						</label>
+						<label for="radio-address" class="address-selector p-0-5 centered">
+							<input
+								id="radio-address"
+								type="radio"
+								name="radio"
+								value="add3"
+							/>
+							<p class="m-0">
+								<b>Old house:</b> 2nd Cross Street, 5th Avenue, B Block, Anna
+								Nagar East, Chennai - 600 031
+							</p>
+						</label>
+					</div>
+					<h2 class="page-heading">Choose your payment method</h2>
+					<div class="flex-column payment-radiobox">
+						<label for="radio-payment" class="p-0-5">
+							<input
+								id="radio-payment"
+								type="radio"
+								name="radio"
+								value="paymentmethod1"
+								checked
+							/>
+							Debit Card
+						</label>
+						<label for="radio-payment" class="p-0-5">
+							<input
+								id="radio-payment"
+								type="radio"
+								name="radio"
+								value="paymentmethod2"
+							/>
+							Credit Card
+						</label>
+						<label for="radio-payment" class="p-0-5">
+							<input
+								id="radio-payment"
+								type="radio"
+								name="radio"
+								value="paymentmethod3"
+							/>
+							Paytm Wallet
+						</label>
+						<label for="radio-payment" class="p-0-5">
+							<input
+								id="radio-payment"
+								type="radio"
+								name="radio"
+								value="paymentmethod4"
+							/>
+							UPI
+						</label>
+						<label for="radio-payment" class="p-0-5">
+							<input
+								id="radio-payment"
+								type="radio"
+								name="radio"
+								value="paymentmethod4"
+							/>
+							Cash on Delivery
+						</label>
+					</div>
+				</div>
+				<div>
+					<h2 class="page-heading">Order Summary</h2>
+					<div class="ordersummary">
+						<div class="price-card p-1">
+							<p class="my-0-5 fw-600">PRICE DETAILS (2 Items)</p>
+							<div class="divider-black"></div>
+							<div class="price-attribute">
+								<p>Total MRP</p>
+								<p>Rs.2398</p>
+							</div>
+							<div class="price-attribute">
+								<p>Discount</p>
+								<p class="color-success ls-1">-Rs.800</p>
+							</div>
+							<div class="price-attribute">
+								<p>Delivery Charge</p>
+								<p>Rs.199</p>
+							</div>
+							<div class="divider-black"></div>
+							<div class="price-attribute">
+								<p class="my-0-5 fw-600">Total Price</p>
+								<p>Rs.1998</p>
+							</div>
+							<a
+								href="/pages/orderplaced.html"
+								class="btn bg-primary btn-place-order mt-1"
+							>
+								PLACE ORDER
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/app.js"></script>
+	</body>
+</html>

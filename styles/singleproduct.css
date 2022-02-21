@@ -55,9 +55,3 @@
 .para-max650 {
 	width: min(100%, 450px);
 }
-
-.checkout {
-	display: grid;
-	align-items: start;
-	gap: 1rem;
-}

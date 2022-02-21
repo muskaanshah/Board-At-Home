@@ -3,6 +3,7 @@
 @import url("/styles/singleproduct.css");
 @import url("/styles/authentication.css");
 @import url("/styles/cart.css");
+@import url("styles/checkout.css");
 
 :root {
 	--primary: #432818;
@@ -209,13 +210,16 @@ body {
 	}
 	.wishlist-listing,
 	.page-heading,
-	.checkout {
-		padding-left: 2rem;
-		padding-right: 2rem;
+	.cartproduct,
+	.ordersummary,
+	.address-radiobox,
+	.payment-radiobox {
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 
-	.checkout {
-		grid-template-columns: 1fr 1fr;
+	.cartproduct {
+		grid-template-columns: 3fr 2fr;
 	}
 }
 

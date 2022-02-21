@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://ui-rhythm.netlify.app/components.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/images/dice-logo.png"
+		/>
+		<title>Board At Home</title>
+	</head>
+	<body>
+		<ul class="nav bg-primary px-1">
+			<div class="section1">
+				<div class="hamburger-menu">
+					<button class="btn-hamburger-menu">
+						<span class="material-icons-outlined"> menu </span>
+					</button>
+				</div>
+				<li class="nav-logo">
+					<a href="#">
+						<img class="nav-logo-img" src="/images/dice-logo.png" />
+					</a>
+				</li>
+				<div class="drawer" data-visible="false">
+					<li class="nav-item"><a href="/index.html">Home</a></li>
+					<li class="nav-item"><a href="/pages/products.html">Games</a></li>
+					<li class="nav-item"><a href="#">About us</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
+				</div>
+			</div>
+			<li class="search">
+				<input
+					type="text"
+					class="input-text input-text-nav input-search"
+					placeholder="Search"
+				/>
+			</li>
+			<li class="btn-login">
+				<a href="/pages/login.html">
+					<span class="material-icons user-login-icon"> account_circle </span>
+				</a>
+				<a
+					class="btn user-login-btn borderradius-2 bg-secondary color-primary py-0-5 px-1"
+					href="/pages/login.html"
+					>Login</a
+				>
+			</li>
+			<li>
+				<a href="/pages/wishlist.html">
+					<span class="material-icons-outlined wishlist-icon">
+						favorite_border
+					</span></a
+				>
+			</li>
+			<li>
+				<span class="badge-container">
+					<a href="/pages/cart.html">
+						<span class="material-icons-outlined cart-icon">
+							shopping_cart
+						</span>
+					</a>
+					<div class="badge badge-number bg-danger color-white">17</div>
+				</span>
+			</li>
+		</ul>
+		<div class="container-orderplaced centered flex-column py-1 px-2">
+			<h1 class="centered">
+				<span class="material-icons color-success fs-2"> celebration </span
+				>Yaayyy! Order placed successfully<span
+					class="material-icons color-success fs-2"
+				>
+					celebration
+				</span>
+			</h1>
+			<a href="/pages/products.html" class="fw-600 color-primary text-underline"
+				>Continue shopping</a
+			>
+		</div>
+		<script src="/app.js"></script>
+	</body>
+</html>
