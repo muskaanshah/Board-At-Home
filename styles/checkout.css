@@ -25,3 +25,12 @@
 	box-sizing: border-box;
 	overflow: hidden;
 }
+
+.input-couponcode {
+	width: 200px;
+	margin-bottom: 0;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--black);
+}
