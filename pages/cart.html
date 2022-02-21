@@ -77,10 +77,17 @@
 			</li>
 		</ul>
 		<div class="container-body py-1 px-2">
-			<h2 class="page-heading">Your cart</h2>
-			<div class="checkout">
-				<div class="cart-checkout">
-					<div class="card-cart-product">
+			<div class="cartproduct">
+				<div class="cart-cartproduct">
+					<div class="cartsummary-header">
+						<h2 class="mb-0">Your cart</h2>
+						<p class="fw-500 m-0 flex-end">
+							<span class="material-icons fs-1-25"> location_on </span
+							>Delivering to Chennai - 600 010
+						</p>
+					</div>
+					<div class="divider-black"></div>
+					<div class="card-cart-product mt-1">
 						<div class="card-horizontal">
 							<div class="card-image-wrapper">
 								<img
@@ -109,6 +116,12 @@
 										<option value="5">5</option>
 									</select>
 								</div>
+								<p class="fs-0-8 pl-1 flex-end">
+									<span class="material-icons color-success-dark fs-1">
+										task_alt
+									</span>
+									Delivery by *date*
+								</p>
 							</div>
 						</div>
 
@@ -140,50 +153,32 @@
 										<option value="5">5</option>
 									</select>
 								</div>
-							</div>
-						</div>
-						<div id="modal" class="modal boxshadow-medium">
-							<button class="btn-close">
-								<span class="material-icons modal-close"> close </span>
-							</button>
-							<p class="modal-body">
-								Are you sure you want to remove this item?
-							</p>
-							<div class="modal-actionbuttons">
-								<button class="btn bg-danger color-white">
-									Delete
-									<span class="material-icons"> delete </span>
-								</button>
-								<button class="btn bg-success color-white">
-									Move to wishlist
-									<span class="material-icons"> shopping_bag </span>
-								</button>
+								<p class="fs-0-8 pl-1 flex-end">
+									<span class="material-icons color-success-dark fs-1">
+										task_alt
+									</span>
+									Delivery by *date*
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="price-card p-1">
-					<p class="my-0-5 fw-600">PRICE DETAILS (2 Items)</p>
+				<div>
+					<h2 class="mb-0">
+						<span class="fw-500">Subtotal (2 Items): </span> Rs. 1798
+					</h2>
 					<div class="divider-black"></div>
-					<div class="price-attribute">
-						<p>Total MRP</p>
-						<p>Rs.2398</p>
-					</div>
-					<div class="price-attribute">
-						<p>Discount</p>
-						<p class="color-success ls-1">-Rs.800</p>
-					</div>
-					<div class="price-attribute">
-						<p>Delivery Charge</p>
-						<p>Rs.199</p>
-					</div>
-					<div class="divider-black"></div>
-					<div class="price-attribute">
-						<p class="my-0-5 fw-600">Total Price</p>
-						<p>Rs.1798</p>
-					</div>
-					<button class="btn bg-primary btn-place-order mt-1">
-						PLACE ORDER
+					<a
+						href="/pages/checkout.html"
+						class="btn bg-success btn-place-order mt-1 fw-600 color-white"
+					>
+						PROCEED TO CHECKOUT
+					</a>
+					<button class="btn bg-warning btn-place-order mt-1 fw-600">
+						SHARE MY CART
+					</button>
+					<button class="btn bg-grey btn-place-order mt-1 fw-600">
+						CLEAR MY CART
 					</button>
 				</div>
 			</div>

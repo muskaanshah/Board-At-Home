@@ -1,11 +1,7 @@
-.card-horizontal,
-.price-card {
-	width: min(100%, 35rem);
+.card-horizontal {
+	width: min(100%, 50rem);
 	box-sizing: border-box;
-}
-
-.price-card {
-	border: 1px solid rgba(0, 0, 0, 0.25);
+	grid-template-columns: minmax(90px, 2fr) 6fr;
 }
 
 .card-cart-product {
@@ -39,6 +35,8 @@
 .btn-place-order {
 	display: block;
 	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .modal {
@@ -60,4 +58,26 @@
 
 .card-horizontal {
 	background-color: white;
+}
+
+.cartproduct {
+	display: grid;
+	align-items: start;
+	gap: 3rem;
+}
+
+.cartsummary-header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.cartsummary-header > p:hover {
+	cursor: pointer;
+}
+
+.flex-end {
+	display: flex;
+	align-items: center;
+	gap: 4px;
 }
